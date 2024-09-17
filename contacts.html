@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>StudyHtml</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-inner">
+            <a href="index.html" class="logo">
+              <img src="./images/logo.svg" alt="" />
+            </a>
+            <nav class="menu">
+              <button class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <ul class="menu-list">
+                <li class="menu-list-item">
+                  <a href="new-car.html" class="menu-list-link">NEW CARS</a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="finance.html" class="menu-list-link">FINANCE</a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#" class="menu-list-link menu-list-link--active"
+                    >CONTACT US</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="contacts">
+          <div class="container">
+            <div class="contacts-wrapper">
+              <div class="contacts-text">
+                <h2>Contact Us</h2>
+                <h3>
+                  Feel free to contact us with questions, potencial partnerships
+                  or media inquiries
+                </h3>
+
+                <ul class="social-icons">
+                  <li class="social-item">
+                    <a href="#"><i class="bx bxl-telegram"></i></a>
+                  </li>
+                  <li class="social-item">
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                  </li>
+                  <li class="social-item">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="logreg-box">
+                <div class="form-box login">
+                  <form>
+                    <h4>Sign In</h4>
+                    <div class="input-box">
+                      <span class="icon"><i class="bx bx-envelope"></i></span>
+                      <input type="email" required />
+                      <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                      <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                      <input type="password" required />
+                      <label>Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                      <label> <input type="checkbox" /> Remember me </label>
+                      <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="btn">Sign In</button>
+
+                    <div class="login-register">
+                      <p>
+                        Don't have an account?
+                        <a href="#" class="register-link">Sign up</a>
+                      </p>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="form-box register">
+                  <form>
+                    <h4>Sign Up</h4>
+                    <div class="input-box">
+                      <span class="icon"><i class="bx bxs-user"></i></span>
+                      <input type="text" required />
+                      <label>Name</label>
+                    </div>
+
+                    <div class="input-box">
+                      <span class="icon"><i class="bx bx-envelope"></i></span>
+                      <input type="email" required />
+                      <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                      <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                      <input type="password" required />
+                      <label>Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                      <label>
+                        <input type="checkbox" /> I agree to the terms &
+                        conditions
+                      </label>
+                    </div>
+
+                    <button type="submit" class="btn">Sign Up</button>
+
+                    <div class="login-register">
+                      <p>
+                        Already have an account?
+                        <a href="#" class="login-link">Sign in</a>
+                      </p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="blog">
+          <div class="container">
+            <div class="blog-list">
+              <div class="blog-item">
+                <img src="images/blog-1.jpg" alt="" />
+                <h3>An easier way to buy your next Toyota</h3>
+                <a href="#">more</a>
+              </div>
+              <div class="blog-item">
+                <img src="images/blog-2.jpg" alt="" />
+                <h3>A Guide to Road-Tripping With Pets</h3>
+                <a href="#">more</a>
+              </div>
+            </div>
+            <a href="#" class="showmore-link">SHOW MORE</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item"><p>Products</p></li>
+              <li class="footer-menu-item"><a href="#">Used</a></li>
+              <li class="footer-menu-item"><a href="#">New</a></li>
+              <li class="footer-menu-item"><a href="#">Sell your car</a></li>
+            </ul>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item"><p>Resources</p></li>
+              <li class="footer-menu-item"><a href="#">Blog</a></li>
+              <li class="footer-menu-item"><a href="#">FAQ</a></li>
+              <li class="footer-menu-item"><a href="#">Contact us</a></li>
+            </ul>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item"><p>Work With TrueCar</p></li>
+              <li class="footer-menu-item"><a href="#">Dealers</a></li>
+              <li class="footer-menu-item"><a href="#">Partners</a></li>
+            </ul>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item"><p>About</p></li>
+              <li class="footer-menu-item"><a href="#">About us</a></li>
+              <li class="footer-menu-item"><a href="#">Team</a></li>
+              <li class="footer-menu-item"><a href="#">Careers</a></li>
+            </ul>
+          </nav>
+
+          <ul class="app">
+            <li class="app-item">
+              <a href="#">
+                <img src="images/app-store.svg" />
+              </a>
+            </li>
+            <li class="app-item">
+              <a href="#">
+                <img src="images/google-play.svg" />
+              </a>
+            </li>
+          </ul>
+
+          <div class="footer-copy">
+            <p class="footer-copy-text">
+              For questions about the TrueCar Auto Buying Service please call
+              1-888-878-3227. Certified Dealers are contractually obligated by
+              TrueCar to meet certain customer service requirements and complete
+              the TrueCar Dealer Certification Program.
+            </p>
+            <p class="footer-copy-text">
+              TrueCar does not broker, sell, or lease motor vehicles. Unless
+              otherwise noted, all vehicles shown on this website are offered
+              for sale by licensed motor vehicle dealers. All vehicles are
+              subject to prior sale. By accessing this website, you agree to the
+              TrueCar Terms of Service and Privacy Policy.
+            </p>
+          </div>
+
+          <nav class="copy-nav">
+            <ul class="copy-nav-list">
+              <li class="copy-nav-item">
+                <a href="#" class="">Terms of Service</a>
+              </li>
+              <li class="copy-nav-item">
+                <a href="#" class="">Privacy Policy</a>
+              </li>
+              <li class="copy-nav-item">
+                <a href="#" class="">Do Not Sell My Personal Information</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
